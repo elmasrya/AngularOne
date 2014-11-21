@@ -3,7 +3,7 @@
   angular.module('PeopleList', ['ngRoute'])
 
   .constant ({
-    'appUrl': 'http://tiy-atl-fe-server.herokuapp.com/collections/ngpeople/'
+    'appUrl': 'http://tiy-atl-fe-server.herokuapp.com/collections/khenefran/'
   })
 
   .config( function ($routeProvider) {
@@ -31,13 +31,6 @@
   });
 
 }());
-
-
-
-
-
-
-
 
 (function (){
 
